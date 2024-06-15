@@ -6,7 +6,7 @@ using Api.Domain.Entities;
 
 namespace Api.Domain.Interfaces.Services.Booking
 {
-    public interface IBookingService
+    public interface IBookingService 
     {
         Task<BookingEntity> Get (Guid id);
         Task<IEnumerable<BookingEntity>> GetAll ();

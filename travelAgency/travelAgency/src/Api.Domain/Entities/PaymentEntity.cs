@@ -8,7 +8,7 @@ namespace Api.Domain.Entities
 {
     public class PaymentEntity : BaseEntity
     {
-        public Guid BookingId { get; set; }
+        public BookingEntity BookingEntity { get; set; }
         public decimal Amount { get; set; }
         public DateTime PaymentDate { get; set; }
         public PaymentEnum PaymentMethod { get; set; }

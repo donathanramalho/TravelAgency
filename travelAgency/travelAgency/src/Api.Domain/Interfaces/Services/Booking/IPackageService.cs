@@ -6,14 +6,14 @@ using Api.Domain.Entities;
 
 namespace Api.Domain.Interfaces.Services.Booking
 {
-    public interface IPaymentEntity
+    public interface IPackageService
     {
         public interface IBookingService
     {
-        Task<PaymentEntity> Get (Guid id);
-        Task<IEnumerable<PaymentEntity>> GetAll ();
-        Task<PaymentEntity> Post (PaymentEntity user);
-        Task<PaymentEntity> Put (PaymentEntity user);
+        Task<PackageEntity> Get (Guid id);
+        Task<IEnumerable<PackageEntity>> GetAll ();
+        Task<PackageEntity> Post (PackageEntity user);
+        Task<PackageEntity> Put (PackageEntity user);
         Task<bool> Delete (Guid id);
 
     }

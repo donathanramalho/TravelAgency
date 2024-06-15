@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O7LucPSkdyT7OF2bYnKMVfmeuJSC1dDW2bKS31HPzAxzjy4KEq4qwXEwONtcJXvIzF6CpQSz4VA0e/buTtTY6w==",
+  "dgSpecHash": "ZSuM7P8xznix7K7PRhnhEj467wgoZ4n5bKAWoUDZO7M1s6VmwGPU5LhcwuQyQMJGkgIFbjhWWjcYLvgo6v7/cQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joyce\\TravelAgency\\travelAgency\\travelAgency\\src\\Api.CrossCutting\\Api.CrossCutting.csproj",
+  "projectFilePath": "c:\\Users\\joyce\\TravelAgency\\travelAgency\\travelAgency\\src\\Api.CrossCutting\\Api.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joyce\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\joyce\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -69,7 +69,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 13.0.1 was resolved.",
+      "message": "Versão detectada do pacote fora da restrição de dependência: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requer AutoMapper (= 12.0.1), mas a versão AutoMapper 13.0.1 foi resolvida.",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net8.0"

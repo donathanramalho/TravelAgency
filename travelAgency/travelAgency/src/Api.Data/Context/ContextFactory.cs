@@ -7,17 +7,17 @@ using Microsoft.EntityFrameworkCore.Design;
 
 namespace Api.Data.Context
 {
-    // public class ContextFactory : IDesignTimeDbContextFactory<MyContext>
-    // {
-    //     //Criar db, tabela, migração
-    //     public MyContext CreateDbContext(string[] args)
-    //     {
-    //         var connectionString = "Server=localhost;Port=3306;Database=travelAgency;Uid=root;Pwd=root";
-    //         var optionBuilder = new DbContextOptionsBuilder<MyContext>();
+    public class ContextFactory : IDesignTimeDbContextFactory<MyContext>
+    {
+        //Criar db, tabela, migração
+        public MyContext CreateDbContext(string[] args)
+        {
+            var connectionString = "Server=localhost;Port=3306;Database=travelAgency;Uid=root;Pwd=root";
+            var optionBuilder = new DbContextOptionsBuilder<MyContext>();
             
-    //         optionBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+            optionBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
             
-    //         return new MyContext(optionBuilder.Options);
-    //     }
-    // }
+            return new MyContext(optionBuilder.Options);
+        }
+    }
 }

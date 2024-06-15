@@ -7,7 +7,7 @@ namespace Api.Domain.Entities
 {
     public class PackageEntity : BaseEntity
     {
-        public Guid DestinationId { get; set; }
+        public DestinyEntity DestinyEntity { get; set; }
         public int Quantity { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
