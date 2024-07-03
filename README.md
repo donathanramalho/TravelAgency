@@ -27,8 +27,8 @@ Users
 -	DELETE /api/Users/{id}: Deleta um cliente.
 
 Uf
--	GET /api/Uf: Retorna todos os destinos.
--	GET /api/Uf/{id}: Retorna um destino específico.
+-	GET /api/Uf: Retorna todos os estados.
+-	GET /api/Uf/{id}: Retorna um estado específico.
 
 Package
 -	GET /api/Package: Retorna todos os pacotes de viagem.
